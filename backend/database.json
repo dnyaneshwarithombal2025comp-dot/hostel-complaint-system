@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@gmail.com",
+      "password": "$2b$10$Lh/R5P3P/vD4A24Zvc2cTeGSAjJCSGhjYGlPPefapixzQNbqvX/na",
+      "role": "admin",
+      "roomNumber": "ADMIN-001",
+      "createdAt": "2026-04-02T11:14:35.154Z"
+    },
+    {
+      "id": 2,
+      "name": "John Student",
+      "email": "john@student.com",
+      "password": "$2b$10$OXt81uQK2yLWsoDIDxWE0O4rjz9SFIpYhTsSx1qjzoAyzHhKZGJN.",
+      "role": "user",
+      "roomNumber": "A-101",
+      "createdAt": "2026-04-02T11:14:35.211Z"
+    },
+    {
+      "id": 3,
+      "name": "Dnyaneshwari",
+      "email": "abc@gmail.com",
+      "password": "$2b$10$QMRxbVigQF99BrwvIo7ap.cbO7pLjYXvIQRT/4/LQOObNTBFZTQG2",
+      "role": "user",
+      "roomNumber": "104",
+      "createdAt": "2026-04-02T11:17:11.785Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "complaintId": "CMP0001",
+      "title": "fan",
+      "description": "sushdfgsdi",
+      "category": "Electricity",
+      "priority": "Medium",
+      "status": "Pending",
+      "userId": 1,
+      "userName": "Admin User",
+      "roomNumber": "ADMIN-001",
+      "adminRemark": "",
+      "createdAt": "2026-04-02T11:16:23.650Z",
+      "updatedAt": "2026-04-02T11:16:23.650Z"
+    },
+    {
+      "id": 2,
+      "complaintId": "CMP0002",
+      "title": "water",
+      "description": "sdgdfhgf",
+      "category": "Plumbing",
+      "priority": "High",
+      "status": "Pending",
+      "userId": 3,
+      "userName": "Dnyaneshwari",
+      "roomNumber": "104",
+      "adminRemark": "",
+      "createdAt": "2026-04-02T11:17:35.400Z",
+      "updatedAt": "2026-04-02T11:17:35.400Z"
+    },
+    {
+      "id": 3,
+      "complaintId": "CMP0003",
+      "title": "room",
+      "description": "fdgfghg",
+      "category": "Cleaning",
+      "priority": "Medium",
+      "status": "Resolved",
+      "userId": 3,
+      "userName": "Dnyaneshwari",
+      "roomNumber": "104",
+      "adminRemark": "solved",
+      "createdAt": "2026-04-02T11:17:48.549Z",
+      "updatedAt": "2026-04-02T11:19:16.431Z",
+      "resolvedAt": "2026-04-02T11:19:16.431Z"
+    }
+  ],
+  "complaintCounter": 4
+}
