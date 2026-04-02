@@ -116,6 +116,10 @@ app.post('/api/auth/register', async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 });
+// Add this anywhere before app.listen
+app.get('/test', (req, res) => {
+  res.json({ message: '✅ Backend is running!' });
+});
 
 app.post('/api/auth/login', async (req, res) => {
   try {
@@ -152,6 +156,9 @@ app.post('/api/auth/login', async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
+});
+app.get('/', (req, res) => {
+  res.json({ message: 'Hostel Complaint System API is running!' });
 });
 
 // ============= COMPLAINT ROUTES =============
