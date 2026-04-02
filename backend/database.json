@@ -30,21 +30,6 @@
   ],
   "complaints": [
     {
-      "id": 1,
-      "complaintId": "CMP0001",
-      "title": "fan",
-      "description": "sushdfgsdi",
-      "category": "Electricity",
-      "priority": "Medium",
-      "status": "Pending",
-      "userId": 1,
-      "userName": "Admin User",
-      "roomNumber": "ADMIN-001",
-      "adminRemark": "",
-      "createdAt": "2026-04-02T11:16:23.650Z",
-      "updatedAt": "2026-04-02T11:16:23.650Z"
-    },
-    {
       "id": 2,
       "complaintId": "CMP0002",
       "title": "water",
@@ -74,7 +59,37 @@
       "createdAt": "2026-04-02T11:17:48.549Z",
       "updatedAt": "2026-04-02T11:19:16.431Z",
       "resolvedAt": "2026-04-02T11:19:16.431Z"
+    },
+    {
+      "id": 4,
+      "complaintId": "CMP0004",
+      "title": "light",
+      "description": "cvdfvdf",
+      "category": "Electricity",
+      "priority": "High",
+      "status": "Rejected",
+      "userId": 2,
+      "userName": "John Student",
+      "roomNumber": "A-101",
+      "adminRemark": "not the actual problem",
+      "createdAt": "2026-04-02T18:22:41.263Z",
+      "updatedAt": "2026-04-02T18:35:59.736Z"
+    },
+    {
+      "id": 5,
+      "complaintId": "CMP0005",
+      "title": "water is not coming",
+      "description": "water issue",
+      "category": "Plumbing",
+      "priority": "Medium",
+      "status": "In Progress",
+      "userId": 2,
+      "userName": "John Student",
+      "roomNumber": "A-101",
+      "adminRemark": "working on it",
+      "createdAt": "2026-04-02T18:34:21.043Z",
+      "updatedAt": "2026-04-02T18:35:32.968Z"
     }
   ],
-  "complaintCounter": 4
+  "complaintCounter": 6
 }
